@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: url("../img/header-bg.png");
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #eee;
+}
+
+.container {
+  max-width: 700px;
+  background: #fff;
+  margin: 0px auto 0px;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.first-name {
+  font-weight: 700;
+}
+
+.last-name {
+  font-weight: 300;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info-2 {
+  margin-bottom: -20px;
+}
+
+.email,
+.phone {
+  color: #999;
+  font-weight: 300;
+}
+
+.address,
+.social {
+  color: #999;
+  font-weight: 300;
+}
+
+.separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+
+.about {
+  text-decoration: double;
+}
+
+.position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.desc {
+  text-decoration: underline;
+}
+
+.details {
+  line-height: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section:last-of-type {
+  margin-bottom: 0px;
+}
+
+.section-title {
+  letter-spacing: 2px;
+  color: #54AFE4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.section-list {
+  text-decoration: wavy;
+}
+
+.section-list-item {
+  margin-bottom: 40px;
+}
+
+.section-list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.left,
+.right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 39%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.duration {
+  text-decoration: wavy;
+}
